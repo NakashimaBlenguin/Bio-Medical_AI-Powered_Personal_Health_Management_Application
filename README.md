@@ -1,1 +1,1 @@
-# Intelligent-Biochips-for-Continuous-Health-Monitoring
+# Bio-Medical AI-Powered Personal Health Management Application
