@@ -1,1 +1,1 @@
-[PyHealth Documentation](https://pyhealth.readthedocs.io/en/latest/index.html#)
+[PyHealth](https://pyhealth.readthedocs.io/en/latest/index.html#)
