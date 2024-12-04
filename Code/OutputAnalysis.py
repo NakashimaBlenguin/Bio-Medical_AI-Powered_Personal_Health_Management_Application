@@ -3,7 +3,6 @@ import openai
 import matplotlib.pyplot as plt
 import json
 
-# Assume we have a trained Transformer model named 'chronic_disease_model'
 # The input for the model is a tensor representing the patient's features
 # Here we simulate a patient's feature input as an example
 patient_features = torch.randn(1, 10, 512)  # Example input tensor for a patient's data (batch_size=1, seq_length=10, feature_dim=512)
