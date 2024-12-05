@@ -9,7 +9,7 @@ patient_features = torch.randn(1, 10, 512)  # Example input tensor for a patient
 
 # Perform inference to get model output
 # The output is a tensor representing probabilities for 5 diseases
-model_output = chronic_disease_model(patient_features)  # Run the patient features through your Transformer model
+model_output = model(patient_features)  # Run the patient features through your Transformer model
 model_output = torch.sigmoid(model_output.squeeze())  # Apply sigmoid to get probabilities and remove batch dimension if needed
 
 # Patient's Electronic Health Record (EHR)
@@ -23,7 +23,7 @@ patient_ehr = {
 }
 
 # Set OpenAI API key
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "MY_OPENAI_API_KEY"
 
 # Prepare input data for explanation
 input_data = {
